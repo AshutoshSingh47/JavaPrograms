@@ -13,7 +13,7 @@ public class Sub_array {
 	else
 {
 	for(i=0;i<n;i++)
-	{   s=0;
+	{  s=0;
 		s=s+a[i];
 	    for(j=i+1;j<n;j++){
 	    	s=s+a[j];

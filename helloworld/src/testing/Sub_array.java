@@ -9,9 +9,6 @@ public class Sub_array {
 	n=a.length;
 	System.out.println("Please enter the sum of the original array");
 	sum=sc.nextInt();
-	if(sum==0){System.out.println("INVALID");}
-	else
-{
 	for(i=0;i<n;i++)
 	{  s=0;
 		s=s+a[i];
@@ -23,14 +20,14 @@ public class Sub_array {
      		
 	    	}
 	}
-}   if(s==sum)    {  
+  if(s==sum)    {  
 	for(int k=start;k<=end;k++)
 {
 	System.out.print(a[k]+" ");
 }}
-else{
-	System.out.println("-1");
-}
+   else{
+	     System.out.println("-1");
+     }
 
 	}
 

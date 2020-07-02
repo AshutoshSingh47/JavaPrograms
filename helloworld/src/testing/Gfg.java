@@ -29,6 +29,7 @@ public static void main(String args[]) {
                    break;
                }
            }
+           break;
        }
        if(c>0){
     	   System.out.println(start+" "+end); }

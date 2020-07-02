@@ -5,7 +5,7 @@ public class Sub_array {
 		Scanner sc=new Scanner(System.in);
 	int i,j,n,s,sum,start,end,c;
 	s=0;sum=0;start=0;end=0;c=0;
-	int a[]={3,4,5,1,2};
+	int a[]={1,2,3,4,5,6,7,8,9,10};
 	n=a.length;
 	System.out.println("Please enter the sum of the original array");
 	sum=sc.nextInt();

@@ -16,26 +16,25 @@ public static void main(String args[]) {
         a[j]=sc.nextInt();
     }
        for(i=0;i<size;i++)
-       { 
+       { s=0;
          s=s+a[i];
            for(j=i+1;j<size;j++)
            {
                s=s+a[j];
                if(s==sum)
                {
-                   start=i;
-                   end=j;
+                   start=i+1;
+                   end=j+1;
                    c++;
                    b=true;
                    break;
                }
            }
            if(b){break;}
-           else{
-           s=0;}
        }
        if(c>0){
     	   System.out.println(start+" "+end); }
-       else{System.out.println(--c);}}
+       else{System.out.println(--c);}
+       start=0;end=0;}
     }
   }

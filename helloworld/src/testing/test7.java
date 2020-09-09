@@ -4,8 +4,11 @@ public class test7 {
 	int b[]={1,2,3,4};
   test7()
 {
+	  System.out.println("this.b = "+this.b[0]);
 	b[1]=b[3];
-	System.out.println(b[3]+" "+b[1]+" "+this.b+this.b);
+	this.b[0]=b[2];
+	System.out.println("this.b = "+this.b[0]);
+	System.out.println(b[3]+" "+b[1]+" "+this.b);
 	for(int e:this.b){
 		System.out.print(e+" ");}
 	System.out.println();

@@ -1,9 +1,14 @@
 package testing;
 
 public class test7 {
+	
 	int b[]={1,2,3,4};
   test7()
 {
+	  test6 ti=new test6();
+	  ti.tt=null;
+//	  this.b=null;
+	  System.out.println("ti.tt = "+ti.tt+" "+"ti = "+ti);
 	  System.out.println("this.b = "+this.b[0]);
 	b[1]=b[3];
 	this.b[0]=b[2];

@@ -3,23 +3,28 @@ package testing;
 public class test5 {
 	int b=6;
 	test5 t;
-	void inn(int b)
+	void inn()
 	{
 		test5 test=new test5();
 		test6 tep=new test6();
+		//tep.a=a;
 		test.b=b;
-		this.b=b;
-		System.out.println("a = "+b);
-		System.out.println("test.a = "+test.b);
-		test.t=t;
-		System.out.println("test5 t = "+t);
+		this.b=test.b;
+		System.out.println("this.b = "+this.b);
+		System.out.println("t = "+t);
+		System.out.println("tep = "+tep);
+		System.out.println("tep.tt = "+tep.tt);
+		System.out.println("test = "+test);
+		System.out.println("test.b = "+test.b);
+		tep.tt=null;
+		System.out.println("tep = "+tep);
 		//System.out.println("this.a = "+this.a);
 	}
 	public static void main(String[] args) {
 		//Scanner sc=new Scanner(System.in);
-		int b=5;
+		//int a=5;
 		test5 test =new test5();
-		test.inn(b);
+		test.inn();
 		//te.a=a;
 }
 }

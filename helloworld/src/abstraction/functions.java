@@ -1,5 +1,4 @@
 package abstraction;
-import java.util.Scanner;
 public abstract class functions {
 public abstract double area();
 }
@@ -8,12 +7,11 @@ class circle extends functions
 	@Override
 	public double area()
 	{
-		double ar;double ra=5.0;
+		double ra=5.0;
 		return pi*(Math.pow(ra,2));
 	}
   public static void main(String[] args) {
 		functions cir=new circle();
 		System.out.println("area = "+cir.area());
 	}
-
 }

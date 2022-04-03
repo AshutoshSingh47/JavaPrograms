@@ -35,7 +35,7 @@ public class candies {
 	public static void main(String[]args) {
 Scanner sc=new Scanner(System.in);
 int n;long sum;
-int a[]={1,2,3,4,1};
+int a[]={1,3,5,2};
 n=a.length;
 sum=candy(a,n);
 System.out.println("\nsum = "+sum);

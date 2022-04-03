@@ -14,7 +14,6 @@ public class candies {
 			if(a[i]>a[i-1])
 				c[i]=c[i-1]+1;	
 		}
-		
 		for(int j=n-2;j>=0;j--)
 		{
 			if(a[j]>a[j+1])
